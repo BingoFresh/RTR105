@@ -2,7 +2,7 @@
 ## 1. Linux distribūcijas lejupielāde un bootable media izveide
 Tai vietā lai izveidotu virtualizētu linux vidi, es izvēlējos to uzstādīt uz sava datora izmantojot dual boot paralēli windows 10.
 
-Es izvēlējos Lubuntu linux distribūciju, jo tā man škita piemērota manam datoram, par cik tā ir paradzēta vājākām ierīcēm.
+Es izvēlējos Lubuntu linux distribūciju, jo tā man škita piemērota manam datoram, par cik tā ir paradzēta zemāku specifikāciju ierīcēm.
 ![Lubuntu](https://github.com/BingoFresh/RTR105/blob/main/MD2-linux%20images/lubuntu.jpg?raw=true)
 
 Lai izveidotu bootable media linux instalācijai, es izmantoju programmu Balena Etcher. Tieši šo programmu izvēlējos, jo man ir līdzšinēji bijusi laba pieredze izmantojot šo programmu.
