@@ -1,9 +1,17 @@
 # Mājasdarbs par linux terminal komandām
-- ls (list) - saraksta formātā uzrāda dotās direktorijas saturu
-- cd (change directory) - nomaina pieeju no esošās direktorijas uz citu konkrēti izvēlētu direktoriju; piem. cd ~/Downloads
+- ls - uzrāda dotās direktorijas saturu
+- ls -l - uzrāda dotās direktorijas saturu saraksta formātā
+- ls -a - uzrāda pilno direktorijas saturu, iekļaujot noslēptus failus/direktorijas
+- cd - pārvieto lietotāju no esošās direktorijas uz citu konkrēti izvēlētu direktoriju; piem. cd ~/Downloads
+- cd . - atstās lietotāju dotajā direktorijā
+- cd .. - pārvietos lietotāju par vienu direktoriju uz augšu. Ja lietotājs atrodas ~/home/user/Documents, tad šī komanda pārvietos lietotāju uz ~/home/user
 - history - uzrāda visas komandas kuras tika ievadītas šajā termināļa cilnē
 - whoiam - uzrāda pašreiz izmantoto lietotāju
 - who - uzrāda visus dotās ierīces lietotājus
 - mkdir - izveido jaunu direktoriju iekš dotās direktorijas; piem. mkdir homework
-- history > filename.txt - izveido teksta failu kurš satur visas komandas, kuras tika izmantotas šajā termināļa cilnē
-- 
+- ... > filename.txt - izpildīto funkciju saglabā kā teksta failu; piem. history > history.txt
+- man - atver konkrētas komandas detalizētu aprakstu; piem. man ls
+- pwd - norāda šobrīd atvērto direktoriju
+- echo - izpilda print funkciju, uzrādot pēcāk uzrakstīto tekstu; piem. echo "text"
+- echo $0 - norāda šobrīd izmantoto procesu. Ja to ievada iekš shell, tad tas norādīs shell nosaukumu. Ja to ievada iekš script, tad tas norādīs script nosaukumu
+- mv - pārvieto norādīto failu uz citu direktoriju, vai arī nomaina dotā faila nosaukumu 
