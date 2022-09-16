@@ -1,0 +1,75 @@
+    1  pwd
+    2  man pwd
+    3  man ls
+    4  echo
+    5  man echo
+    6  echo $0
+    7  ls
+    8  cd Desktop
+    9  cd .
+   10  cd ..
+   11  cd Documents
+   12  ls
+   13  mkdir test
+   14  ls
+   15  cd .
+   16  pwd
+   17  ls -l
+   18  echo "text"
+   19  man mv
+   20  touch sample
+   21  ls
+   22  mv sample ~/home/bingo/sample
+   23  mv ~/Documents/sample ~/home/bingo/sample
+   24  sample
+   25  nano sample
+   26  ls
+   27  mv sample
+   28  mv sample /home/bingo
+   29  cd ..
+   30  ls
+   31  snap
+   32  sudo apt install discord
+   33  sudo apt install spotify
+   34  snap install spotify
+   35  sudo apt purge snapd
+   36  sudo apt install snapd
+   37  snap install --edge core
+   38  sudo apt install snapd
+   39  sudo apt update
+   40  sudo apt upgrade
+   41  snap install spotify
+   42  curl -sS https://download.spotify.com/debian/pubkey-5E3C45d7B312C643.gpg | sudo apt-key add -
+   43  sudo add-apt-repository ppa:lubuntu-desktop/ppa && sudo apt-get update && sudo apt-get install lubuntu-software-center
+   44  lubuntu-software-center
+   45  firefox
+   46  sudo apt install firefox
+   47  firefox
+   48  sudo snap install runescape
+   49  runescape
+   50  uname
+   51  git clone https://github.com/BingoFresh/RTR105
+   52  ls -lt
+   53  cd RTR105
+   54  ls
+   55  cd ..
+   56  man rmdir
+   57  rmdir -rf RTR105
+   58  rmdir --ignore-fail-on-non-empty RTR105
+   59  ls
+   60  rmdir -rf RTR105
+   61  rmdir -rt RTR105
+   62  ls
+   63  rmdir -r RTR105
+   64  rm -r RTR105
+   65  sudo rm -r RTR105
+   66  ls
+   67  git clone https://github.com/BingoFresh/RTR105
+   68  ls
+   69  cat
+   70  sudo apt install lynx
+   71  lynx google.com
+   72  git config --global user.name BingoFresh
+   73  git config --config user.email localfalls@yahoo.com
+   74  git config --global user.email localfalls@yahoo.com
+   75  history > test.txt
