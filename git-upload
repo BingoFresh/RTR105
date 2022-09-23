@@ -1,0 +1,9 @@
+#!/bin/bash
+git add . # tiek pieteiktas adreses "uzmanīšanai"
+git config --global user.name BingoFresh
+git config --global user.email localfalls@yahoo.com
+git commit -m "Class_04"
+git push origin main
+
+
+
